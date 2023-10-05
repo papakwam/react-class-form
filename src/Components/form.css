@@ -1,0 +1,65 @@
+/* App.css */
+
+/* Center the form on the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+/* Style the form container */
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+/* Facebook blue color */
+.facebook-blue {
+    color: #1877f2;
+}
+
+/* Style form inputs */
+.form-input {
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 10px; /* Add margin-bottom to separate input elements */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    display: block; /* Display input elements as block elements */
+}
+
+/* Style submit button */
+.form-button {
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #166fe5; /* Slightly darker color on hover */
+}
+
+/* Additional styles for the "Forgot password?" link */
+.forgot-password {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #1877f2;
+    text-decoration: none;
+    display: block;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
